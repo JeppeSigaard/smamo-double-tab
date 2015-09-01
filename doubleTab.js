@@ -4,7 +4,7 @@ jQuery(function($){
 	
 	limited.each(function(){
     
-            $(this).on('click',function(e){
+            $(this).on('touchstart',function(e){
                 
             var t = $(e.target); // find target
 
