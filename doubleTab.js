@@ -1,10 +1,10 @@
 jQuery(function($){
     
-    var limited = $('nav');
+    var limited = $('ul');
 	
 	limited.each(function(){
     
-        $(this).on('touchstart',function(e){
+        $(this).on('touchend',function(e){
 
             var t = $(e.target); // find target
 
